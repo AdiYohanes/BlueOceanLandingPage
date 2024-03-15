@@ -5,28 +5,36 @@ const AboutPage = () => {
   return (
     <div className="block">
       <div className="container mx-auto px-4">
-      <div className="items-center flex flex-wrap">
-    <h3 className="w-full text-center mb-10 border-b pb-4 text-5xl leading-tight text-gray-700">
-        About Us
-    </h3>
-    <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
-        <div className="md:pr-12">
-            <p className="mt-4 text-lg leading-relaxed text-gray-600 text-justify">
-                PT. Blue Ocean Sejahtera is an independent Indonesian company, engaging in the design, manufacture, installation, and commissioning of Oil Spill Response Equipment for Platforms, Ships, Jetties, Drilling, and other facilities related to marine environmental issues. Established in 2006 with our office located in Jakarta and workshops in Bekasi and Sentul, we are staffed with competent and experienced personnel. To keep developing, we have committed to taking first priority in overall professional performance to achieve the highest possible engineering standards.
-            </p>
-            <div className="mt-5">
+        <div className="items-center flex flex-wrap">
+          <h3 className="w-full text-center mb-10 border-b pb-4 text-5xl leading-tight text-gray-700">
+            About Us
+          </h3>
+          <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div className="md:pr-12">
+              <p className="mt-4 text-lg leading-relaxed text-gray-600 text-justify">
+                PT. Blue Ocean Sejahtera is an independent Indonesian company,
+                engaging in the design, manufacture, installation, and
+                commissioning of Oil Spill Response Equipment for Platforms,
+                Ships, Jetties, Drilling, and other facilities related to marine
+                environmental issues. Established in 2006 with our office
+                located in Jakarta and workshops in Bekasi and Sentul, we are
+                staffed with competent and experienced personnel. To keep
+                developing, we have committed to taking first priority in
+                overall professional performance to achieve the highest possible
+                engineering standards.
+              </p>
+              <div className="mt-5">
                 <span>A. Nugroho D.S</span>
                 <p>Founder & CEO</p>
+              </div>
             </div>
+          </div>
+          <div className="w-full md:w-1/2 ml-auto mr-auto px-4">
+            <h3 className="mb-4 mt-10 md:mt-0 border-b pb-4 text-3xl md:text-6xl leading-tight">
+              Ready to handle any oil spill emergency any time.
+            </h3>
+          </div>
         </div>
-    </div>
-    <div className="w-full md:w-1/2 ml-auto mr-auto px-4">
-        <h3 className="mb-4 mt-10 md:mt-0 border-b pb-4 text-3xl md:text-6xl leading-tight">
-            Ready to handle any oil spill emergency any time.
-        </h3>
-    </div>
-</div>
-
       </div>
       <Featured />
     </div>

@@ -21,7 +21,7 @@ const imageData = [
     title: "Training",
     description:
       "   When a ship spills oil, it is very important for the crew to understand how to deal with the oil spill quickly and properly.",
-    path: "/oilspillresponse",
+    path: "/ourprojects/training",
   },
   {
     src: "/images/design.jpg",
@@ -29,14 +29,14 @@ const imageData = [
     title: "Design & Manufacturing",
     description:
       " Boom and skimmer are mechanical techniques in Oil Spill Response and Recovery (OSRR) that collect oil from the water surface. ",
-    path: "/oilspillresponse",
+    path: "/ourprojects/designmanufacturing",
   },
   {
     src: "/images/assesment.jpg",
     alt: "Assessment",
     title: "Assessment",
     description: "",
-    path: "/oilspillresponse",
+    path: "/ourprojects/assessment",
   },
 ];
 const SecondSection = () => {

@@ -71,17 +71,17 @@ const projects: { title: string; description: string; href: string }[] = [
   {
     title: "Training",
     description: "Vacuum Truck",
-    href: "/",
+    href: "/ourprojects/training",
   },
   {
     title: "Design & Manufacturing",
     description: "Vacuum Truck",
-    href: "/",
+    href: "/ourprojects/designmanufacturing",
   },
   {
     title: "Assessment",
     description: "Vacuum Truck",
-    href: "/",
+    href: "/ourprojects/assessment",
   },
 ];
 
