@@ -17,7 +17,7 @@ const products: { title: string; description: string; href: string }[] = [
     title: "Oil Boom",
     description:
       "An oil boom is a period of large inflow of income as a result of high global oil prices or large oil production in an econom",
-    href: "/",
+    href: "/products/oilboom",
   },
   {
     title: "Skimmer",
