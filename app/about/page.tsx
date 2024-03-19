@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className="block">
       <div className="container mx-auto px-4">
         <div className="items-center flex flex-wrap">
-          <h3 className="w-full text-center mb-10 border-b pb-4 text-5xl leading-tight text-gray-700">
+          <h3 className="w-full text-center mb-10 pb-4 py-5 text-5xl leading-tight text-gray-700">
             About Us
           </h3>
           <div className="w-full md:w-5/12 ml-auto mr-auto px-4">

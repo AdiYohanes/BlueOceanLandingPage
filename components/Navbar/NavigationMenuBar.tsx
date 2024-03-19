@@ -23,17 +23,17 @@ const products: { title: string; description: string; href: string }[] = [
     title: "Skimmer",
     description:
       "An oil skimmer is a machine that removes floating oil and grease from liquid",
-    href: "/",
+    href: "/products/skimmer",
   },
   {
     title: "Response Boat",
     description: "Response Boat",
-    href: "/",
+    href: "/products/responseboat",
   },
   {
     title: "Vacuum Truck",
     description: "Vacuum Truck",
-    href: "/",
+    href: "/products/vaccumtruck",
   },
   {
     title: "Dispersant Pump",

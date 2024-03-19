@@ -1,7 +1,6 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import TypewriterEffect from "@/components/Home/typing";
-import Card from "@/components/ui/Card";
+
 import Image from "next/image";
 import React from "react";
 
@@ -10,26 +9,20 @@ const imageSource = "/images/OilBoom/";
 
 const OilBoom: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <div>
-        <TypewriterEffect
-          words={[{ text: "Oil" }, { text: "Boom" }]}
-          className="my-custom-class"
-          cursorClassName="my-cursor-class"
-          animationDuration={0.3}
-          animationDelay={0.2}
-        />
+    <div className="flex flex-col items-center justify-center pb-10">
+      <div className="flex py-10">
+      <h2 className="text-4xl font-bold text-blue-800">Oil Boom</h2>
       </div>
 
       <div className="flex flex-col m-10 p-10 shadow-md rounded-md gap-5 w-auto h-auto">
         <h2>
-          <span className="text-3xl font-semibold">
+          <span className="text-3xl font-semibold text-blue-800">
             P-70 HEAVY DUTY OIL BOOM
           </span>
         </h2>
         <div className="flex gap-10">
           <Image
-            src="/images/oilspill.jpg"
+            src="/images/oilboom/gambar1.png"
             alt="oilboom"
             width={300}
             height={300}
@@ -48,9 +41,10 @@ const OilBoom: React.FC = () => {
           </p>
         </div>
       </div>
+
       <div className="flex flex-col m-10 p-10 shadow-md rounded-md gap-5 w-auto h-auto">
         <h2>
-          <span className="text-3xl font-semibold">
+          <span className="text-3xl font-semibold text-blue-800">
             OPSK-70 EMERGENCY OIL BOOM
           </span>
         </h2>
@@ -74,11 +68,11 @@ const OilBoom: React.FC = () => {
       </div>
       <div className="flex flex-col m-10 p-10 shadow-md rounded-md gap-5 w-auto h-auto">
         <h2>
-          <span className="text-3xl font-semibold">INFLATABLE OIL BOOM</span>
+          <span className="text-3xl font-semibold text-blue-800">INFLATABLE OIL BOOM</span>
         </h2>
         <div className="flex gap-10">
           <Image
-            src="/images/oilspill.jpg"
+            src="/images/oilboom/gambar2.png"
             alt="oilboom"
             width={300}
             height={300}
@@ -97,11 +91,11 @@ const OilBoom: React.FC = () => {
       </div>
       <div className="flex flex-col m-10 p-10 shadow-md rounded-md gap-5 w-auto h-auto">
         <h2>
-          <span className="text-3xl font-semibold">REEL BOOM</span>
+          <span className="text-3xl font-semibold text-blue-800">REEL BOOM</span>
         </h2>
         <div className="flex gap-10">
           <Image
-            src="/images/oilspill.jpg"
+            src="/images/oilboom/gambar3.jpg"
             alt="oilboom"
             width={300}
             height={300}
