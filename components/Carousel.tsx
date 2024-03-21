@@ -2,7 +2,6 @@
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
 
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -11,6 +10,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import { Card, CardContent } from "./ui/card";
 
 interface ImageType {
   src: string;
