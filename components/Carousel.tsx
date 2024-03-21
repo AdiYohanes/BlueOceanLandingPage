@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "./ui/card";
 
 interface ImageType {
   src: string;
