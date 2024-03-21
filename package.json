@@ -9,11 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^10.8.0",
+    "@radix-ui/react-checkbox": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "@radix-ui/react-slot": "^1.0.2",
+    "@react-pdf/renderer": "^3.4.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "embla-carousel-autoplay": "^8.0.0",
+    "embla-carousel-react": "^8.0.0",
     "framer-motion": "^11.0.8",
     "lucide-react": "^0.341.0",
     "next": "14.1.0",
@@ -23,7 +28,8 @@
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.8.1",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "webviewer-downloader": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",

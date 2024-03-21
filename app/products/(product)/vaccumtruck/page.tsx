@@ -1,3 +1,6 @@
+"use client";
+import { CarouselPlugin } from "@/components/Carousel";
+import { Carousel } from "@/components/ui/carousel";
 import React from "react";
 
 const CONTENT = [
@@ -10,6 +13,25 @@ const CONTENT = [
     title: "Skimmer System",
     description:
       "The three types of light weight skimmer heads are not more than 42 kgs each, making them all portable, easy to deploy operate and maintain. Each skimmer is unique to suit different aras and oil spill. All three will be installed on board of the truck for rapid deployment..",
+  },
+];
+
+const CAROUSELIMG = [
+  {
+    src: "/images/carousel/gambar1.png",
+    alt: "gambar1",
+  },
+  {
+    src: "/images/carousel/gambar2.png",
+    alt: "gambar2",
+  },
+  {
+    src: "/images/carousel/gambar3.png",
+    alt: "gambar3",
+  },
+  {
+    src: "/images/carousel/gambar4.jpg",
+    alt: "gambar4",
   },
 ];
 const page = () => {
@@ -28,7 +50,7 @@ const page = () => {
           Mini Weir Skimmer head, and Delta Mantaray skimmer head.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pb-10">
         {CONTENT.map((item, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="font-semibold text-2xl text-blue-800 mb-4">
@@ -37,6 +59,9 @@ const page = () => {
             <p className="text-gray-700 leading-relaxed">{item.description}</p>
           </div>
         ))}
+      </div>
+      <div className="flex items-center justify-center w-full ">
+        <CarouselPlugin />
       </div>
     </section>
   );

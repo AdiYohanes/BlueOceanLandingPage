@@ -1,6 +1,6 @@
 "use client";
 import Accordion from "@/components/product/Faq";
-import Card from "@/components/ui/Card";
+import Card from "@/components/Cards";
 import React from "react";
 
 const ProductPage = () => {
