@@ -1,5 +1,5 @@
 "use client";
-import { CarouselPlugin } from "@/components/Carousel";
+import Galery from "@/components/Galery";
 import { Carousel } from "@/components/ui/carousel";
 import React from "react";
 
@@ -16,7 +16,7 @@ const CONTENT = [
   },
 ];
 
-const CAROUSELIMG = [
+const galery = [
   {
     src: "/images/carousel/gambar1.png",
     alt: "gambar1",
@@ -60,8 +60,11 @@ const page = () => {
           </div>
         ))}
       </div>
+      <div className="flex items-center justify-center w-full">
+        <h2 className="text-4xl font-bold text-blue-800">Galery</h2>{" "}
+      </div>
       <div className="flex items-center justify-center w-full ">
-        <CarouselPlugin />
+        <Galery />
       </div>
     </section>
   );

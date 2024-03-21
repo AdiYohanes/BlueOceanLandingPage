@@ -1,6 +1,6 @@
 "use client";
 
-import { Carousel2 } from "@/components/Carousel2";
+import Galery2 from "@/components/Galery2";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -69,10 +69,11 @@ const DispersanPump = () => {
       </div>
       <div className="block items-center justify-items-center pt-10">
         <div className="flex items-center justify-center w-full">
-          <span className="font-semibold text-3xl">GALERRY</span>
-        </div>
-        <div className="flex items-center justify-center w-full ">
-          <Carousel2 />
+        <h2 className="text-4xl font-bold text-blue-800">Galery</h2>        </div>
+        <div className="flex items-center justify-center w-full pt-10">
+          <div className="flex flex-col items-center justify-center">
+            <Galery2 />
+          </div>
         </div>
       </div>
     </section>
