@@ -43,12 +43,12 @@ const products: { title: string; description: string; href: string }[] = [
   {
     title: "Storage Tank",
     description: "Vacuum Truck",
-    href: "/",
+    href: "/products/storagetank",
   },
   {
     title: "Absorbent",
     description: "Vacuum Truck",
-    href: "/",
+    href: "/products/absorbent",
   },
   {
     title: "Waste Water Treatment",
