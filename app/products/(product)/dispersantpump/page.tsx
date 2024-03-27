@@ -73,10 +73,10 @@ const DispersanPump = () => {
           rel="noopene noreferrer"
         >
           <Button className="bg-blue-400 hover:bg-blue-200 hover:underline">
-            Read More
+            Download
           </Button>
         </Link>
-      </div>
+      </div> 
       <div className="block items-center justify-items-center pt-10">
         <div className="flex items-center justify-center w-full">
           <h2 className="text-4xl font-bold text-blue-800">Galery</h2>{" "}

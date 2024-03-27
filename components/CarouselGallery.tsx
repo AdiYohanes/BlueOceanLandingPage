@@ -16,9 +16,13 @@ interface ImageProps {
 
 interface CarouselGalleryProps {
   images: ImageProps[];
+  className?: String;
 }
 
-const CarouselGallery: React.FC<CarouselGalleryProps> = ({ images }) => {
+const CarouselGallery: React.FC<CarouselGalleryProps> = ({
+  images,
+  className,
+}) => {
   return (
     <Carousel className="w-full max-w-xs">
       <CarouselContent>

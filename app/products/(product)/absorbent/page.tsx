@@ -1,7 +1,21 @@
+import CarouselGallery from "@/components/CarouselGallery";
+import { Button } from "@/components/ui/button";
 import { Dot } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Absorbent = () => {
+  const IMAGES = [
+    {
+      src: "/images/absorben/absorbent-01.jpg",
+      alt: "image",
+    },
+    {
+      src: "/images/absorben/absorbent-02.jpg",
+      alt: "image",
+    },
+  ];
   return (
     <section className="flex flex-wrap justify-center items-center bg-gray-100 py-12 px-4">
       <div className="text-center p-6 rounded-lg shadow-lg mb-6">
@@ -69,6 +83,28 @@ const Absorbent = () => {
             <li>BOOM: size 9.5cm x 240cm, 6 pieces, weight 9kg</li>
             <li>ROLL: size 48cm x 30m, 2 pieces, weight 5.8kg</li>
           </ul>
+        </div>
+      </div>
+
+      <div className="flex justify-center items-center pt-10 gap-10">
+        <div className="flex flex-col justify-center items-center pr-5">
+          <h2 className="text-4xl font-bold text-blue-800">DATASHEET</h2>
+          <Image
+            src="/images/absorben.png"
+            alt="pdf"
+            width={500}
+            height={500}
+          />
+          <Link href="/absorben.pdf" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-blue-400 hover:bg-blue-200 hover:underline mt-4">
+              Download
+            </Button>
+          </Link>
+        </div>
+        <div className="w-px h-full" />
+        <div className="flex flex-col justify-center items-center pl-5">
+          <h2 className="text-4xl font-bold text-blue-800 pb-10">GALLERY</h2>
+          <CarouselGallery images={IMAGES} />
         </div>
       </div>
     </section>
